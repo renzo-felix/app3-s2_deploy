@@ -2,10 +2,10 @@
 
  services:
    api-students:
-     image: gcolchado/api-students
+     image: renzofelix578/api-students
      ports:
        - 8000:8000
    websimple:
-     image: gcolchado/websimple
+     image: renzofelix578/websimple
      ports:
        - 8080:80
